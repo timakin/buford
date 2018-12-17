@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/RobotsAndPencils/buford/payload"
-	"github.com/RobotsAndPencils/buford/payload/badge"
+	"github.com/timakin/buford/payload"
+	"github.com/timakin/buford/payload/badge"
 )
 
 func ExampleAPS() {

@@ -10,17 +10,17 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/RobotsAndPencils/buford/certificate"
-	"github.com/RobotsAndPencils/buford/payload"
-	"github.com/RobotsAndPencils/buford/push"
-	"github.com/RobotsAndPencils/buford/pushpackage"
+	"github.com/timakin/buford/certificate"
+	"github.com/timakin/buford/payload"
+	"github.com/timakin/buford/push"
+	"github.com/timakin/buford/pushpackage"
 	"github.com/gorilla/mux"
 )
 
 var (
 	website = pushpackage.Website{
 		Name:            "Buford",
-		PushID:          "web.com.github.RobotsAndPencils.buford",
+		PushID:          "web.com.github.timakin.buford",
 		AllowedDomains:  []string{"https://e31340d3.ngrok.io"},
 		URLFormatString: `https://e31340d3.ngrok.io/click?q=%@`,
 		// AuthenticationToken identifies the user (16+ characters)
